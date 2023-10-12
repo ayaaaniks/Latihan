@@ -1,0 +1,51 @@
+body {
+    background-color: #3498db;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff; /* Latar belakang abu-abu */
+    color: #555; /* Warna teks abu-abu */
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left; /* Menggeser teks ke kiri */
+}
+
+h1 {
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    background-color: #e7e7e7; /* Latar belakang putih */
+    color: #555; /* Warna teks abu-abu */
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px; /* Atur padding sesuai kebutuhan */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+}
